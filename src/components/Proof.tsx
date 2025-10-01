@@ -36,7 +36,7 @@ const examples = [
 
 const Proof = () => {
   return (
-    <section className="py-20 bg-primary text-primary-foreground">
+    <section id="case-studies" className="py-20 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <Badge variant="secondary" className="mb-4 bg-accent/20 text-accent-foreground border-accent/30">

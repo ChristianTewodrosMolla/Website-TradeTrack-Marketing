@@ -4,7 +4,7 @@ import { ArrowRight, Phone, Mail } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="py-20 bg-[var(--hero-gradient)] text-primary-foreground">
+    <section id="contact" className="py-20 bg-[var(--hero-gradient)] text-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
