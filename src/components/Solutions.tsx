@@ -5,38 +5,38 @@ const solutions = [
   {
     icon: Search,
     title: "Google Ads (Search)",
-    description: "Capture high-intent shippers searching for freight services in your lanes. Proven 5-10× ROI with CPLs of $50-$100.",
-    results: ["60+ leads/month at $26 CPL", "One new shipper = tens of thousands in revenue"]
+    description: "Capture high-intent shippers searching for freight services in your lanes. Google Ads consistently delivers strong ROI for brokers, with typical CPLs in the $50–$100 range. With long-term optimization, CPLs can sometimes fall into the $25–$40 range.",
+    results: ["Predictable shipper leads month after month", "Even one new shipper can mean tens of thousands in revenue"]
   },
   {
     icon: Users,
     title: "Facebook & Instagram Ads",
-    description: "Recruit CDL drivers and owner-operators at scale. Highlight pay, home time, and benefits to build your driver pipeline.",
-    results: ["$20-$50 CPL for qualified drivers", "39% CPL reduction in 3 months"]
+    description: "Recruit CDL drivers and owner-operators at scale. Highlight pay, home time, and benefits to build a steady driver pipeline.",
+    results: ["Driver CPLs typically $20–$50", "Long-term campaigns reduce recruiting costs over time"]
   },
   {
     icon: Linkedin,
     title: "LinkedIn Campaigns",
-    description: "Target B2B decision-makers: logistics managers, supply chain directors, and distributors looking for reliable capacity.",
-    results: ["Direct access to enterprise buyers", "Build long-term shipper relationships"]
+    description: "Target B2B decision-makers like logistics managers, supply chain directors, and distributors who need reliable capacity.",
+    results: ["Direct access to enterprise buyers", "Build trust and long-term shipper relationships"]
   },
   {
     icon: Zap,
     title: "CRM Automation (GoHighLevel)",
-    description: "Instant SMS/email follow-ups, quote pipelines, driver hiring funnels, and real-time load updates. No more manual work.",
-    results: ["Automated lead nurturing 24/7", "Close more deals faster"]
+    description: "Replace manual calls and emails with automated SMS/email follow-ups, load updates, and driver funnels.",
+    results: ["24/7 lead nurturing and updates", "Close deals faster with less manual work"]
   },
   {
     icon: Globe,
     title: "Websites & Funnels",
-    description: "Replace outdated DOT pages with professional, trust-rich landing pages, VSLs, and testimonials that convert.",
-    results: ["Modern, mobile-responsive design", "Build trust with compliance badges"]
+    description: "Upgrade outdated DOT pages into professional, trust-rich websites and landing pages with VSLs, testimonials, and compliance badges.",
+    results: ["Mobile-responsive modern design", "Build shipper trust and credibility"]
   },
   {
     icon: Award,
     title: "Brand Positioning",
-    description: "Establish credibility with compliance badges, client testimonials, reviews, and industry-specific messaging.",
-    results: ["Stand out from competitors", "Win enterprise-level contracts"]
+    description: "Stand out with compliance badges, testimonials, reviews, and industry-specific messaging tailored to freight.",
+    results: ["Differentiate from competitors", "Win credibility with larger contracts"]
   }
 ];
 
@@ -49,7 +49,7 @@ const Solutions = () => {
             Marketing Systems Built for Freight
           </h2>
           <p className="text-lg text-muted-foreground">
-            We don't do generic marketing. Every campaign, funnel, and automation is designed specifically for freight brokers, carriers, and 3PLs.
+            We don't do generic marketing. Every campaign, funnel, and automation is designed specifically for freight brokers, carriers, and 3PLs. These systems have been tested in the freight industry and deliver consistent, measurable results.
           </p>
         </div>
         
@@ -78,6 +78,12 @@ const Solutions = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+        
+        <div className="max-w-3xl mx-auto text-center mt-12">
+          <p className="text-muted-foreground text-base italic">
+            These are proven systems built for freight. Actual outcomes will vary by region, budget, and market — but the process itself is designed to create reliable, measurable growth.
+          </p>
         </div>
       </div>
     </section>
