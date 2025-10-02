@@ -80,7 +80,7 @@ const Proof = () => {
         
         <div className="max-w-3xl mx-auto text-center mt-12">
           <p className="text-primary-foreground/80 text-base italic">
-            These outcomes are examples of what's possible with proven systems in freight marketing. Actual results will vary by market, budget, and strategy — but the process we use is designed to create measurable, scalable growth over time.
+            These outcomes reflect industry benchmarks and case studies from freight marketing campaigns. Actual results will depend on your market, budget, and sales process, but the strategies shown here are based on what's consistently working in the industry today.
           </p>
         </div>
       </div>

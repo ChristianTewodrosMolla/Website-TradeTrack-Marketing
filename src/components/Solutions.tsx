@@ -42,7 +42,7 @@ const solutions = [
 
 const Solutions = () => {
   return (
-    <section id="services" className="py-20 bg-[var(--section-gradient)]">
+    <section id="services-overview" className="py-20 bg-[var(--section-gradient)]">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
@@ -51,27 +51,35 @@ const Solutions = () => {
           <p className="text-lg text-muted-foreground">
             We don't do generic marketing. Every campaign, funnel, and automation is designed specifically for freight brokers, carriers, and 3PLs. These systems have been tested in the freight industry and deliver consistent, measurable results.
           </p>
+          <div className="mt-6">
+            <a 
+              href="/#services-overview" 
+              className="text-accent hover:text-accent/80 transition-colors font-medium"
+            >
+              View all services
+            </a>
+          </div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {solutions.map((solution, index) => (
             <Card 
               key={index}
-              className="hover:shadow-[var(--card-hover-shadow)] transition-all duration-300 border-border"
+              className="hover:shadow-[var(--card-hover-shadow)] transition-all duration-300 border-border h-full flex flex-col"
             >
-              <CardHeader>
+              <CardHeader className="flex-grow">
                 <div className="bg-primary/10 p-3 rounded-lg w-fit mb-4">
                   <solution.icon className="w-6 h-6 text-primary" />
                 </div>
                 <CardTitle className="text-xl mb-2">{solution.title}</CardTitle>
                 <CardDescription className="text-base">{solution.description}</CardDescription>
               </CardHeader>
-              <CardContent>
+              <CardContent className="mt-auto">
                 <div className="space-y-2">
                   {solution.results.map((result, i) => (
-                    <div key={i} className="flex items-start gap-2">
+                    <div key={i} className="flex items-start gap-2 min-h-[1.5rem]">
                       <div className="bg-accent w-1.5 h-1.5 rounded-full mt-2 shrink-0"></div>
-                      <p className="text-sm text-muted-foreground">{result}</p>
+                      <p className="text-sm text-muted-foreground leading-relaxed">{result}</p>
                     </div>
                   ))}
                 </div>

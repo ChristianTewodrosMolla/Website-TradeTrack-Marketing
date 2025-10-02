@@ -53,27 +53,29 @@ const WhoWeServe = () => {
           {audiences.map((audience, index) => (
             <div 
               key={index}
-              className="bg-card rounded-lg p-8 border border-border hover:shadow-[var(--card-hover-shadow)] transition-all duration-300"
+              className="bg-card rounded-lg p-8 border border-border hover:shadow-[var(--card-hover-shadow)] transition-all duration-300 h-full flex flex-col"
             >
-              <div className="bg-primary/10 p-4 rounded-lg w-fit mb-6">
-                <audience.icon className="w-8 h-8 text-primary" />
+              <div className="flex-grow">
+                <div className="bg-primary/10 p-4 rounded-lg w-fit mb-6">
+                  <audience.icon className="w-8 h-8 text-primary" />
+                </div>
+                
+                <h3 className="text-2xl font-bold text-foreground mb-2">{audience.title}</h3>
+                
+                <div className="inline-block bg-accent/10 text-accent text-sm font-semibold px-3 py-1 rounded-full mb-4">
+                  {audience.revenue || audience.fleet || audience.specialty}
+                </div>
+                
+                <p className="text-muted-foreground mb-6">{audience.description}</p>
               </div>
               
-              <h3 className="text-2xl font-bold text-foreground mb-2">{audience.title}</h3>
-              
-              <div className="inline-block bg-accent/10 text-accent text-sm font-semibold px-3 py-1 rounded-full mb-4">
-                {audience.revenue || audience.fleet || audience.specialty}
-              </div>
-              
-              <p className="text-muted-foreground mb-6">{audience.description}</p>
-              
-              <div>
+              <div className="mt-auto">
                 <p className="text-sm font-semibold text-foreground mb-3">What You Get:</p>
                 <div className="space-y-2">
                   {audience.needs.map((need, i) => (
-                    <div key={i} className="flex items-start gap-2">
+                    <div key={i} className="flex items-start gap-2 min-h-[1.5rem]">
                       <div className="bg-accent w-1.5 h-1.5 rounded-full mt-2 shrink-0"></div>
-                      <p className="text-sm text-muted-foreground">{need}</p>
+                      <p className="text-sm text-muted-foreground leading-relaxed">{need}</p>
                     </div>
                   ))}
                 </div>
