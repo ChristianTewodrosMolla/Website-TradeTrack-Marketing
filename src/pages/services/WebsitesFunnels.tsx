@@ -1,11 +1,15 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServiceMedia from "@/components/ServiceMedia";
+import CalendlyModal from "@/components/CalendlyModal";
 import { Globe, Target, TrendingUp, CheckCircle, ArrowRight, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet-async";
+import { useState } from "react";
 
 const WebsitesFunnels = () => {
+  const [isCalendlyModalOpen, setIsCalendlyModalOpen] = useState(false);
+
   return (
     <div className="min-h-screen">
       <Helmet>
@@ -153,12 +157,7 @@ const WebsitesFunnels = () => {
                 </p>
                 <Button 
                   size="lg"
-                  onClick={() => {
-                    const element = document.getElementById('contact');
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}
+                  onClick={() => setIsCalendlyModalOpen(true)}
                   className="bg-accent hover:bg-accent/90 text-accent-foreground"
                 >
                   Book a Freight Marketing Strategy Session
@@ -188,6 +187,12 @@ const WebsitesFunnels = () => {
         </div>
       </main>
       <Footer />
+      
+      {/* Calendly Modal */}
+      <CalendlyModal 
+        isOpen={isCalendlyModalOpen} 
+        onClose={() => setIsCalendlyModalOpen(false)} 
+      />
     </div>
   );
 };

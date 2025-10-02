@@ -1,8 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, TrendingUp } from "lucide-react";
+import { useState } from "react";
+import CalendlyModal from "@/components/CalendlyModal";
 import logo from "@/assets/logo.svg";
 
 const Hero = () => {
+  const [isCalendlyModalOpen, setIsCalendlyModalOpen] = useState(false);
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]"></div>
@@ -25,12 +29,7 @@ const Hero = () => {
                 variant="hero" 
                 size="lg" 
                 className="text-lg px-8 py-6 h-auto bg-[#63cc53] hover:bg-[#63cc53]/90 text-white"
-                onClick={() => {
-                  const element = document.getElementById('schedule');
-                  if (element) {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}
+                onClick={() => setIsCalendlyModalOpen(true)}
               >
                 Get Your Free Strategy Session
                 <ArrowRight className="ml-2" />
@@ -75,6 +74,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      {/* Calendly Modal */}
+      <CalendlyModal 
+        isOpen={isCalendlyModalOpen} 
+        onClose={() => setIsCalendlyModalOpen(false)} 
+      />
     </section>
   );
 };
