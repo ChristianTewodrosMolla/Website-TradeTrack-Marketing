@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Twitter, Linkedin, Instagram, Facebook, Menu, ChevronDown, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -60,7 +60,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a href="/" aria-label="Home">
-              <img src={logo} alt="TradeTrack Marketing" className="h-12 md:h-14" />
+              <img src={logo} alt="TradeTrack Logistics" className="h-12 md:h-14" />
             </a>
           </div>
           

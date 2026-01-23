@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, TrendingUp } from "lucide-react";
 import { useState } from "react";
 import CalendlyModal from "@/components/CalendlyModal";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo.png";
 
 const Hero = () => {
   const [isCalendlyModalOpen, setIsCalendlyModalOpen] = useState(false);

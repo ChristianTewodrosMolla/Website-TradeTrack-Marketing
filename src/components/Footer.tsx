@@ -1,5 +1,5 @@
 import { Twitter, Linkedin, Instagram, Facebook } from "lucide-react";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div className="col-span-1 md:col-span-2">
-              <img src={logo} alt="TradeTrack Marketing" className="h-12 mb-4" />
+              <img src={logo} alt="TradeTrack Logistics" className="h-12 mb-4" />
               <p className="text-muted-foreground mb-4">
                 Digital marketing systems built exclusively for U.S. freight brokers, carriers, and 3PLs. Generate shippers, recruit drivers, scale revenue.
               </p>
