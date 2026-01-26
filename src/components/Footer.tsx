@@ -15,6 +15,16 @@ const Footer = () => {
               <p className="text-muted-foreground mb-4">
                 Email: contact@tradetrackmarketing.com
               </p>
+              <p className="text-muted-foreground mb-4">
+                Phone: <a href="tel:+15632325580" className="hover:text-accent transition-colors">+1 (563)-232-5580</a>
+              </p>
+              <p className="text-muted-foreground mb-4">
+                71-75, Shelton Street<br />
+                Covent Garden<br />
+                London<br />
+                WC2H 9JQ<br />
+                UNITED KINGDOM
+              </p>
               <div className="flex items-center gap-3">
                 <a 
                   href="https://twitter.com/TradeTrackHQ" 
