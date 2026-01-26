@@ -6,12 +6,12 @@ const About = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>About TradeTrack Marketing | Built for the Freight Industry</title>
+        <title>About Tradetrack Logistics | Built for the Freight Industry</title>
         <meta name="description" content="Who we serve and how our proven systems generate shippers, drivers, and scalable revenue." />
         <link rel="canonical" href="https://tradetrackmarketing.com/about" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="About TradeTrack Marketing | Built for the Freight Industry" />
+        <meta property="og:title" content="About Tradetrack Logistics | Built for the Freight Industry" />
         <meta property="og:description" content="Who we serve and how our proven systems generate shippers, drivers, and scalable revenue." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tradetrackmarketing.com/about" />
@@ -19,7 +19,7 @@ const About = () => {
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About TradeTrack Marketing | Built for the Freight Industry" />
+        <meta name="twitter:title" content="About Tradetrack Logistics | Built for the Freight Industry" />
         <meta name="twitter:description" content="Who we serve and how our proven systems generate shippers, drivers, and scalable revenue." />
         <meta name="twitter:image" content="https://tradetrackmarketing.com/og-default.jpg" />
         
@@ -28,7 +28,7 @@ const About = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "TradeTrack Marketing",
+            "name": "Tradetrack Logistics",
             "url": "https://tradetrackmarketing.com",
             "logo": "https://tradetrackmarketing.com/logo.png",
             "sameAs": [
@@ -45,7 +45,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-                About TradeTrack Marketing
+                About Tradetrack Logistics
               </h1>
             </div>
 
@@ -53,10 +53,10 @@ const About = () => {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
                 <p className="text-muted-foreground mb-4">
-                  TradeTrack Marketing was built for the backbone of American logistics: the independent brokers, carriers, and small 3PLs that keep freight moving every single day. We saw a clear problem in the industry—most brokers were relying on referrals, cold calls, or load boards to survive, but had no modern marketing systems to help them scale.
+                  Tradetrack Logistics was built for the backbone of American logistics: the independent brokers, carriers, and small 3PLs that keep freight moving every single day. We saw a clear problem in the industry—most brokers were relying on referrals, cold calls, or load boards to survive, but had no modern marketing systems to help them scale.
                 </p>
                 <p className="text-muted-foreground">
-                  Instead of competing with giant 3PLs that have endless resources, smaller brokers needed an edge. That edge wasn't more phone calls—it was smarter marketing. From that belief, TradeTrack Marketing was born.
+                  Instead of competing with giant 3PLs that have endless resources, smaller brokers needed an edge. That edge wasn't more phone calls—it was smarter marketing. From that belief, Tradetrack Logistics was born.
                 </p>
               </section>
 
@@ -108,7 +108,7 @@ const About = () => {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">Our Promise</h2>
                 <p className="text-muted-foreground">
-                  At TradeTrack Marketing, we don't just run ads—we build long-term systems. When you partner with us, you're not just getting a marketing vendor. You're getting a growth partner who understands freight, speaks your language, and is invested in helping your brokerage succeed.
+                  At Tradetrack Logistics, we don't just run ads—we build long-term systems. When you partner with us, you're not just getting a marketing vendor. You're getting a growth partner who understands freight, speaks your language, and is invested in helping your brokerage succeed.
                 </p>
               </section>
             </div>

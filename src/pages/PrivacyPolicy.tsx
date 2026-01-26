@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">Who we are</h2>
                 <p className="text-muted-foreground">
-                  TradeTrack Marketing ("we," "us," "our") provides digital marketing and automation services for U.S. freight brokers, carriers, and 3PLs. This policy explains what we collect, how we use it, and the choices you have.
+                  Tradetrack Logistics ("we," "us," "our") provides digital marketing and automation services for U.S. freight brokers, carriers, and 3PLs. This policy explains what we collect, how we use it, and the choices you have.
                 </p>
               </section>
 
@@ -139,7 +139,7 @@ const PrivacyPolicy = () => {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">Contact us</h2>
                 <p className="text-muted-foreground mb-2">
-                  <strong>TradeTrack Marketing</strong>
+                  <strong>Tradetrack Logistics</strong>
                 </p>
                 <p className="text-muted-foreground mb-2">
                   Email: contact@tradetrackmarketing.com

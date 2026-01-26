@@ -13,12 +13,12 @@ const SocialAds = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Facebook & Instagram Ads for Driver Recruiting | TradeTrack Marketing</title>
+        <title>Facebook & Instagram Ads for Driver Recruiting | Tradetrack Logistics</title>
         <meta name="description" content="Recruit CDL drivers and owner-operators at scale with targeted social media campaigns and proven Facebook and Instagram ad funnels." />
         <link rel="canonical" href="https://tradetrackmarketing.com/services/social-ads" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Facebook & Instagram Ads for Driver Recruiting | TradeTrack Marketing" />
+        <meta property="og:title" content="Facebook & Instagram Ads for Driver Recruiting | Tradetrack Logistics" />
         <meta property="og:description" content="Recruit CDL drivers and owner-operators at scale with targeted social media campaigns and proven Facebook and Instagram ad funnels." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tradetrackmarketing.com/services/social-ads" />
@@ -26,7 +26,7 @@ const SocialAds = () => {
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Facebook & Instagram Ads for Driver Recruiting | TradeTrack Marketing" />
+        <meta name="twitter:title" content="Facebook & Instagram Ads for Driver Recruiting | Tradetrack Logistics" />
         <meta name="twitter:description" content="Recruit CDL drivers and owner-operators at scale with targeted social media campaigns and proven Facebook and Instagram ad funnels." />
         <meta name="twitter:image" content="https://tradetrackmarketing.com/og-default.jpg" />
         
@@ -35,7 +35,7 @@ const SocialAds = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "TradeTrack Marketing",
+            "name": "Tradetrack Logistics",
             "url": "https://tradetrackmarketing.com",
             "logo": "https://tradetrackmarketing.com/logo.png",
             "sameAs": [
@@ -53,7 +53,7 @@ const SocialAds = () => {
             "description": "Recruit CDL drivers and owner-operators at scale with targeted social media campaigns. Lower CPLs and build a steady driver pipeline with proven Facebook and Instagram ad funnels.",
             "provider": {
               "@type": "Organization",
-              "name": "TradeTrack Marketing"
+              "name": "Tradetrack Logistics"
             },
             "areaServed": "US",
             "serviceType": "Social Media Marketing"

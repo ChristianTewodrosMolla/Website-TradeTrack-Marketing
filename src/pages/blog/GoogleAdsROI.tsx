@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 const GoogleAdsROI = () => {
   useEffect(() => {
-    document.title = "The ROI of Google Ads for Freight Brokers | TradeTrack Marketing";
+    document.title = "The ROI of Google Ads for Freight Brokers | Tradetrack Logistics";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Learn how freight brokers achieve 3-5x returns on Google Ads. Real data, case studies, and optimization strategies for shipper lead generation.');

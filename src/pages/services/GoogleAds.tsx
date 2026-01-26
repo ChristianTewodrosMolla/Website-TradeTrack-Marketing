@@ -13,12 +13,12 @@ const GoogleAds = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Google Ads for Freight Brokers | TradeTrack Marketing</title>
+        <title>Google Ads for Freight Brokers | Tradetrack Logistics</title>
         <meta name="description" content="Generate high-intent shipper leads with proven Google Ads campaigns delivering consistent ROI with CPLs typically in the $50-$100 range." />
         <link rel="canonical" href="https://tradetrackmarketing.com/services/google-ads" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Google Ads for Freight Brokers | TradeTrack Marketing" />
+        <meta property="og:title" content="Google Ads for Freight Brokers | Tradetrack Logistics" />
         <meta property="og:description" content="Generate high-intent shipper leads with proven Google Ads campaigns delivering consistent ROI with CPLs typically in the $50-$100 range." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tradetrackmarketing.com/services/google-ads" />
@@ -26,7 +26,7 @@ const GoogleAds = () => {
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Google Ads for Freight Brokers | TradeTrack Marketing" />
+        <meta name="twitter:title" content="Google Ads for Freight Brokers | Tradetrack Logistics" />
         <meta name="twitter:description" content="Generate high-intent shipper leads with proven Google Ads campaigns delivering consistent ROI with CPLs typically in the $50-$100 range." />
         <meta name="twitter:image" content="https://tradetrackmarketing.com/og-default.jpg" />
         
@@ -35,7 +35,7 @@ const GoogleAds = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "TradeTrack Marketing",
+            "name": "Tradetrack Logistics",
             "url": "https://tradetrackmarketing.com",
             "logo": "https://tradetrackmarketing.com/logo.png",
             "sameAs": [
@@ -53,7 +53,7 @@ const GoogleAds = () => {
             "description": "Capture high-intent shippers actively searching for freight services in your lanes. Our proven Google Ads campaigns deliver consistent ROI with CPLs typically in the $50-$100 range.",
             "provider": {
               "@type": "Organization",
-              "name": "TradeTrack Marketing"
+              "name": "Tradetrack Logistics"
             },
             "areaServed": "US",
             "serviceType": "Google Ads"

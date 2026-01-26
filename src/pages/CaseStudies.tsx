@@ -76,13 +76,13 @@ const CaseStudies = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Case Studies | TradeTrack Marketing</title>
+        <title>Case Studies | Tradetrack Logistics</title>
         <meta name="description" content="Real results from high-ROI systems for freight brokers, carriers, and 3PLs. See how we grow shipper leads, driver recruiting, and enterprise trust." />
         <link rel="canonical" href="https://tradetrackmarketing.com/case-studies" />
-        <meta property="og:title" content="Case Studies | TradeTrack Marketing" />
+        <meta property="og:title" content="Case Studies | Tradetrack Logistics" />
         <meta property="og:description" content="Real results from high-ROI systems for freight brokers, carriers, and 3PLs. See how we grow shipper leads, driver recruiting, and enterprise trust." />
         <meta property="og:url" content="https://tradetrackmarketing.com/case-studies" />
-        <meta name="twitter:title" content="Case Studies | TradeTrack Marketing" />
+        <meta name="twitter:title" content="Case Studies | Tradetrack Logistics" />
         <meta name="twitter:description" content="Real results from high-ROI systems for freight brokers, carriers, and 3PLs. See how we grow shipper leads, driver recruiting, and enterprise trust." />
       </Helmet>
       

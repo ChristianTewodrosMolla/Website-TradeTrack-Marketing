@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
           
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; {new Date().getFullYear()} TradeTrack Marketing. All rights reserved. Built for the freight industry.</p>
+            <p>&copy; {new Date().getFullYear()} Tradetrack Logistics. All rights reserved. Built for the freight industry.</p>
           </div>
         </div>
       </div>

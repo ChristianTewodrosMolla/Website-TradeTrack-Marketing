@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 const CRMAutomation = () => {
   useEffect(() => {
-    document.title = "CRM Automation for Freight Brokers | TradeTrack Marketing";
+    document.title = "CRM Automation for Freight Brokers | Tradetrack Logistics";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Transform your manual processes with CRM automation. Discover how automated follow-ups, lead scoring, and pipeline management can increase your close rates by 40% or more.');

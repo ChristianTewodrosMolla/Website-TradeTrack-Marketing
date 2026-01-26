@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 const DriverRecruitingFunnels = () => {
   useEffect(() => {
-    document.title = "Driver Recruiting Funnels for Small Fleets | TradeTrack Marketing";
+    document.title = "Driver Recruiting Funnels for Small Fleets | Tradetrack Logistics";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Stop wasting money on ineffective driver recruiting. Learn Facebook and Instagram ad strategies, landing page optimization, and follow-up systems that deliver qualified CDL drivers.');

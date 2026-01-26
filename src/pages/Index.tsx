@@ -12,7 +12,7 @@ const Index = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "TradeTrack Marketing",
+    "name": "Tradetrack Logistics",
     "url": "https://tradetrackmarketing.com",
     "logo": "https://tradetrackmarketing.com/logo.png",
     "sameAs": [
@@ -25,7 +25,7 @@ const Index = () => {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "TradeTrack Marketing",
+    "name": "Tradetrack Logistics",
     "url": "https://tradetrackmarketing.com",
     "potentialAction": {
       "@type": "SearchAction",
@@ -37,12 +37,12 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>TradeTrack Marketing | Freight Broker Digital Marketing & Lead Gen</title>
+        <title>Tradetrack Logistics | Freight Broker Digital Marketing & Lead Gen</title>
         <meta name="description" content="High-ROI marketing for freight brokers, carriers, and 3PLs. Google Ads, LinkedIn, social recruiting, CRM automation, and conversion-first websites." />
         <link rel="canonical" href="https://tradetrackmarketing.com/" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="TradeTrack Marketing | Freight Broker Digital Marketing & Lead Gen" />
+        <meta property="og:title" content="Tradetrack Logistics | Freight Broker Digital Marketing & Lead Gen" />
         <meta property="og:description" content="High-ROI marketing for freight brokers, carriers, and 3PLs. Google Ads, LinkedIn, social recruiting, CRM automation, and conversion-first websites." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tradetrackmarketing.com/" />
@@ -50,7 +50,7 @@ const Index = () => {
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="TradeTrack Marketing | Freight Broker Digital Marketing & Lead Gen" />
+        <meta name="twitter:title" content="Tradetrack Logistics | Freight Broker Digital Marketing & Lead Gen" />
         <meta name="twitter:description" content="High-ROI marketing for freight brokers, carriers, and 3PLs. Google Ads, LinkedIn, social recruiting, CRM automation, and conversion-first websites." />
         <meta name="twitter:image" content="https://tradetrackmarketing.com/og-default.jpg" />
         

@@ -20,14 +20,14 @@ const TermsOfService = () => {
             <div className="prose prose-lg max-w-none">
               <section className="mb-12">
                 <p className="text-muted-foreground mb-6">
-                  Welcome to TradeTrack Marketing ("we," "us," "our"). By using our website, services, or engaging with us in any way, you agree to the following terms and conditions. Please read carefully.
+                  Welcome to Tradetrack Logistics ("we," "us," "our"). By using our website, services, or engaging with us in any way, you agree to the following terms and conditions. Please read carefully.
                 </p>
               </section>
 
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">1. Services Provided</h2>
                 <p className="text-muted-foreground">
-                  TradeTrack Marketing offers digital marketing, advertising, branding, and automation solutions designed for freight brokers, carriers, and 3PLs. Services may include but are not limited to Google Ads management, social media marketing, LinkedIn campaigns, CRM automation, website design, and brand positioning.
+                  Tradetrack Logistics offers digital marketing, advertising, branding, and automation solutions designed for freight brokers, carriers, and 3PLs. Services may include but are not limited to Google Ads management, social media marketing, LinkedIn campaigns, CRM automation, website design, and brand positioning.
                 </p>
               </section>
 
@@ -77,7 +77,7 @@ const TermsOfService = () => {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">7. Intellectual Property</h2>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                  <li>All content, logos, designs, and materials on our website are owned by TradeTrack Marketing unless otherwise noted.</li>
+                  <li>All content, logos, designs, and materials on our website are owned by Tradetrack Logistics unless otherwise noted.</li>
                   <li>Client-specific campaigns, creatives, and deliverables remain your property after payment in full.</li>
                   <li>We reserve the right to showcase non-confidential results (e.g., performance data, testimonials) in case studies or marketing, unless agreed otherwise in writing.</li>
                 </ul>
@@ -93,7 +93,7 @@ const TermsOfService = () => {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">9. Limitation of Liability</h2>
                 <p className="text-muted-foreground">
-                  TradeTrack Marketing will not be liable for indirect, incidental, or consequential damages arising from use of our services. Our maximum liability is limited to the amount you paid for services in the month such liability arose.
+                  Tradetrack Logistics will not be liable for indirect, incidental, or consequential damages arising from use of our services. Our maximum liability is limited to the amount you paid for services in the month such liability arose.
                 </p>
               </section>
 
@@ -121,7 +121,7 @@ const TermsOfService = () => {
                   For questions about these Terms, contact us at:
                 </p>
                 <p className="text-muted-foreground mb-2">
-                  <strong>TradeTrack Marketing</strong>
+                  <strong>Tradetrack Logistics</strong>
                 </p>
                 <p className="text-muted-foreground mb-2">
                   Email: contact@tradetrackmarketing.com
