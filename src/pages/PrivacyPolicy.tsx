@@ -81,6 +81,33 @@ const PrivacyPolicy = () => {
               </section>
 
               <section className="mb-12">
+                <h2 className="text-3xl font-bold text-foreground mb-6">SMS Opt-In</h2>
+                <p className="text-muted-foreground mb-4">
+                  When you provide your phone number and explicitly opt in via our contact form or other methods, you consent to receive SMS messages from Tradetrack Logistics. We offer two types of SMS consent:
+                </p>
+                <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
+                  <li><strong>Transactional Messages:</strong> Non-promotional messages such as account alerts, service reminders, appointment confirmations, and operational notifications related to your account or services.</li>
+                  <li><strong>Marketing Messages:</strong> Promotional or marketing messages about our services, special offers, and updates (only if you explicitly opt in to marketing communications).</li>
+                </ul>
+                <p className="text-muted-foreground mb-4">
+                  You can opt in to SMS messages by checking the appropriate consent boxes on our contact form or by explicitly providing consent through other methods. Message frequency may vary. Message & data rates may apply.
+                </p>
+                <p className="text-muted-foreground">
+                  <strong>Opt-Out Instructions:</strong> You can opt out of SMS messages at any time by replying STOP to any message. After opting out, you may receive one final confirmation message. For help, reply HELP. You can also opt out by contacting us at contact@tradetrackmarketing.com or +1 (563)-232-5580.
+                </p>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-foreground mb-6">Mobile Information Sharing</h2>
+                <p className="text-muted-foreground mb-4">
+                  <strong>No mobile information will be shared with third parties/affiliates for marketing/promotional purposes.</strong> We only share mobile information with SMS service providers necessary to deliver messages you have consented to receive. These providers are contractually obligated to maintain confidentiality and are not permitted to use your information for their own marketing purposes.
+                </p>
+                <p className="text-muted-foreground">
+                  We do not sell, rent, or share your mobile phone number or SMS opt-in status with third parties for their marketing or promotional purposes.
+                </p>
+              </section>
+
+              <section className="mb-12">
                 <h2 className="text-3xl font-bold text-foreground mb-6">Sharing your information</h2>
                 <p className="text-muted-foreground mb-4">
                   We do not sell your personal information. We share limited data with:
@@ -103,7 +130,7 @@ const PrivacyPolicy = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-6">Your choices & rights</h2>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
                   <li><strong>Access, update, delete:</strong> Email us to request a copy, correction, or deletion of your data.</li>
-                  <li><strong>Opt out:</strong> Unsubscribe links are included in marketing emails; reply STOP to opt out of SMS.</li>
+                  <li><strong>Opt out:</strong> Unsubscribe links are included in marketing emails; reply STOP to opt out of SMS. You can opt out of SMS messages at any time by replying STOP to any message.</li>
                   <li><strong>Do Not Track/Global Privacy Control:</strong> We honor applicable browser or platform-level signals where required by law.</li>
                 </ul>
               </section>
@@ -143,6 +170,12 @@ const PrivacyPolicy = () => {
                 </p>
                 <p className="text-muted-foreground mb-2">
                   Email: contact@tradetrackmarketing.com
+                </p>
+                <p className="text-muted-foreground mb-2">
+                  Phone: +1 (563)-232-5580
+                </p>
+                <p className="text-muted-foreground mb-2">
+                  71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM
                 </p>
                 <p className="text-muted-foreground">
                   Website: tradetrackmarketing.com

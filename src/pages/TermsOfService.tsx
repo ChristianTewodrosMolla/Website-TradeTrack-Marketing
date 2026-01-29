@@ -109,14 +109,64 @@ const TermsOfService = () => {
               </section>
 
               <section className="mb-12">
-                <h2 className="text-3xl font-bold text-foreground mb-6">11. Changes to Terms</h2>
+                <h2 className="text-3xl font-bold text-foreground mb-6">11. SMS Messaging Terms</h2>
+                <p className="text-muted-foreground mb-4">
+                  By providing your mobile phone number and opting in to receive SMS messages, you agree to receive text messages from Tradetrack Logistics. Our SMS messaging service is used for transactional and operational purposes only. We do not send promotional messages or engage in cold outreach via SMS without your explicit opt-in consent.
+                </p>
+                
+                <h3 className="text-xl font-semibold text-foreground mb-3">SMS Use Cases</h3>
+                <p className="text-muted-foreground mb-4">
+                  We use SMS messaging for transactional and operational communications only, including but not limited to:
+                </p>
+                <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
+                  <li>Account alerts and notifications</li>
+                  <li>Service reminders and confirmations</li>
+                  <li>Appointment scheduling confirmations</li>
+                  <li>Operational updates related to your account or services</li>
+                </ul>
+                <p className="text-muted-foreground mb-4">
+                  We do not send promotional messages, marketing content, or engage in cold outreach via SMS unless you have explicitly opted in to receive marketing messages through our contact form or other consent mechanisms.
+                </p>
+
+                <h3 className="text-xl font-semibold text-foreground mb-3">Opt-Out Instructions</h3>
+                <p className="text-muted-foreground mb-4">
+                  You can opt out of SMS messages at any time by replying <strong>STOP</strong> to any message. After you send STOP, you will receive one final confirmation message. For help, reply <strong>HELP</strong>. You can also opt out by contacting our customer support team.
+                </p>
+
+                <h3 className="text-xl font-semibold text-foreground mb-3">Message & Data Rates</h3>
+                <p className="text-muted-foreground mb-4">
+                  <strong>Message and data rates may apply.</strong> Standard message and data rates charged by your mobile carrier will apply to SMS messages sent and received. Tradetrack Logistics is not responsible for any charges incurred as a result of receiving SMS messages.
+                </p>
+
+                <h3 className="text-xl font-semibold text-foreground mb-3">Carrier Liability Disclaimer</h3>
+                <p className="text-muted-foreground mb-4">
+                  <strong>Carriers are not liable for delayed or undelivered messages.</strong> Mobile carriers are not liable for delayed or undelivered messages. Message delivery is subject to effective transmission from your mobile carrier's network. Tradetrack Logistics is not responsible for messages that are delayed, lost, or not delivered due to carrier network issues, device issues, or other factors outside our control.
+                </p>
+
+                <h3 className="text-xl font-semibold text-foreground mb-3">Eligibility</h3>
+                <p className="text-muted-foreground mb-4">
+                  You must be at least 18 years old to receive SMS messages from Tradetrack Logistics. By opting in to SMS messages, you represent that you are at least 18 years of age.
+                </p>
+
+                <h3 className="text-xl font-semibold text-foreground mb-3">Customer Support</h3>
+                <p className="text-muted-foreground">
+                  For questions or issues related to SMS messaging, please contact our customer support team:
+                </p>
+                <ul className="list-disc list-inside text-muted-foreground space-y-2 mt-2">
+                  <li>Email: contact@tradetrackmarketing.com</li>
+                  <li>Phone: +1 (563)-232-5580</li>
+                </ul>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-foreground mb-6">12. Changes to Terms</h2>
                 <p className="text-muted-foreground">
                   We may update these Terms of Service periodically. The updated version will be posted on this page with a revised "Effective Date."
                 </p>
               </section>
 
               <section className="mb-12">
-                <h2 className="text-3xl font-bold text-foreground mb-6">12. Contact Us</h2>
+                <h2 className="text-3xl font-bold text-foreground mb-6">13. Contact Us</h2>
                 <p className="text-muted-foreground mb-2">
                   For questions about these Terms, contact us at:
                 </p>
@@ -125,6 +175,12 @@ const TermsOfService = () => {
                 </p>
                 <p className="text-muted-foreground mb-2">
                   Email: contact@tradetrackmarketing.com
+                </p>
+                <p className="text-muted-foreground mb-2">
+                  Phone: +1 (563)-232-5580
+                </p>
+                <p className="text-muted-foreground mb-2">
+                  71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM
                 </p>
                 <p className="text-muted-foreground">
                   Website: tradetrackmarketing.com
