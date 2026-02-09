@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import { ServicesCarouselSection } from "@/components/ServicesCarouselSection";
 import Problems from "@/components/Problems";
 import Solutions from "@/components/Solutions";
 import Proof from "@/components/Proof";
@@ -65,6 +66,7 @@ const Index = () => {
       
       <Header />
       <Hero />
+      <ServicesCarouselSection />
       <Problems />
       <Solutions />
       <Proof />

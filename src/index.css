@@ -54,6 +54,7 @@ All colors MUST be HSL.
     --anchor-bg: 215 28% 12%;
     --anchor-fg: 0 0% 98%;
     --anchor-muted: 215 15% 65%;
+    --anchor-section-gradient: linear-gradient(135deg, hsl(215 32% 11%) 0%, hsl(215 28% 12%) 50%, hsl(260 25% 14%) 100%);
 
     --sidebar-background: 0 0% 98%;
 
