@@ -60,7 +60,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a href="/" aria-label="Home">
-              <img src={logo} alt="TradeTrack Logistics" className="h-12 md:h-14" />
+              <img src={logo} alt="TradeTrack Logistics logo — stylized T icon in dark blue and green with TradeTrack and LOGISTICS wordmark" className="h-12 md:h-14" />
             </a>
           </div>
           
