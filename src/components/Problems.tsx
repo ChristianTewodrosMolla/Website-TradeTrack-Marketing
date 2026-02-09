@@ -26,7 +26,7 @@ const problems = [
 
 const Problems = () => {
   return (
-    <section id="about" className="section-spacing bg-background">
+    <section id="problems" className="section-spacing bg-background">
       <div className="container mx-auto px-4 max-w-6xl">
         <Reveal>
           <div className="max-w-3xl mx-auto text-center mb-16">

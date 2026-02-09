@@ -2,18 +2,20 @@ import { Button } from "@/components/ui/button";
 import { Twitter, Linkedin, Instagram, Facebook, Menu, ChevronDown, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import logo from "@/assets/logo-white.svg";
+import CalendlyModal from "@/components/CalendlyModal";
 
 const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
+  const [isCalendlyOpen, setIsCalendlyOpen] = useState(false);
 
   const servicesTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -65,13 +67,20 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
-            <button 
-              onClick={() => scrollToSection('about')}
+            <button
+              onClick={() => scrollToSection("about")}
               className="text-anchor hover:text-primary transition-colors font-medium"
             >
               About
             </button>
-            
+
+            <button
+              onClick={() => scrollToSection("our-approach")}
+              className="text-anchor hover:text-primary transition-colors font-medium"
+            >
+              How it Works
+            </button>
+
             {/* Services Dropdown */}
             <div 
               className="relative"
@@ -151,10 +160,10 @@ const Header = () => {
             <Button
               variant="default"
               size="sm"
-              onClick={() => scrollToSection("schedule")}
+              onClick={() => setIsCalendlyOpen(true)}
               className="bg-accent hover:bg-accent/85 text-accent-foreground"
             >
-              Get Strategy Session
+              Book a Call
             </Button>
           </nav>
 
@@ -172,16 +181,26 @@ const Header = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden border-t border-border bg-background">
             <nav className="container mx-auto px-4 py-4 space-y-4">
-              <button 
+              <button
                 onClick={() => {
-                  scrollToSection('about');
+                  scrollToSection("about");
                   setIsMobileMenuOpen(false);
                 }}
                 className="block w-full text-left text-anchor hover:text-primary transition-colors font-medium"
               >
                 About
               </button>
-              
+
+              <button
+                onClick={() => {
+                  scrollToSection("our-approach");
+                  setIsMobileMenuOpen(false);
+                }}
+                className="block w-full text-left text-anchor hover:text-primary transition-colors font-medium"
+              >
+                How it Works
+              </button>
+
               <div>
                 <button 
                   onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)}
@@ -256,17 +275,18 @@ const Header = () => {
                 variant="default"
                 size="sm"
                 onClick={() => {
-                  scrollToSection("schedule");
+                  setIsCalendlyOpen(true);
                   setIsMobileMenuOpen(false);
                 }}
                 className="w-full bg-accent hover:bg-accent/85 text-accent-foreground"
               >
-                Get Strategy Session
+                Book a Call
               </Button>
             </nav>
           </div>
         )}
       </div>
+      <CalendlyModal isOpen={isCalendlyOpen} onClose={() => setIsCalendlyOpen(false)} />
     </header>
   );
 };

@@ -1,6 +1,10 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import { LogoStrip } from "@/components/LogoStrip";
+import { AboutBlock } from "@/components/AboutBlock";
 import { ServicesCarouselSection } from "@/components/ServicesCarouselSection";
+import { CFOValueSection } from "@/components/CFOValueSection";
+import { ServicesProductSection } from "@/components/ServicesProductSection";
 import Problems from "@/components/Problems";
 import Solutions from "@/components/Solutions";
 import Proof from "@/components/Proof";
@@ -66,7 +70,11 @@ const Index = () => {
       
       <Header />
       <Hero />
+      <LogoStrip />
+      <AboutBlock />
       <ServicesCarouselSection />
+      <CFOValueSection />
+      <ServicesProductSection />
       <Problems />
       <Solutions />
       <Proof />
