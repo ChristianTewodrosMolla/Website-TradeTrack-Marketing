@@ -205,7 +205,7 @@ const Contact = () => {
                   {/* Submit Button */}
                   <Button 
                     type="submit" 
-                    className="w-full bg-[#63cc53] hover:bg-[#63cc53]/90 text-white"
+                    className="w-full bg-accent hover:bg-accent/85 text-accent-foreground"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? "Submitting..." : "Submit"}
@@ -219,14 +219,14 @@ const Contact = () => {
               <p className="text-sm text-muted-foreground mb-2">
                 <a 
                   href="/privacy-policy" 
-                  className="text-accent hover:text-accent/80 transition-colors underline"
+                  className="text-primary hover:text-primary/80 transition-colors underline"
                 >
                   Privacy Policy
                 </a>
                 {' • '}
                 <a 
                   href="/terms-of-service" 
-                  className="text-accent hover:text-accent/80 transition-colors underline"
+                  className="text-primary hover:text-primary/80 transition-colors underline"
                 >
                   Terms & Conditions
                 </a>
@@ -240,7 +240,7 @@ const Contact = () => {
               <div className="mb-4">
                 <a 
                   href="mailto:contact@tradetrackmarketing.com"
-                  className="text-xl font-semibold text-accent hover:text-accent/80 transition-colors"
+                  className="text-xl font-semibold text-primary hover:text-primary/80 transition-colors"
                 >
                   contact@tradetrackmarketing.com
                 </a>
@@ -251,7 +251,7 @@ const Contact = () => {
                   href="https://twitter.com/TradeTrackHQ" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-accent transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors"
                   aria-label="Visit our X (Twitter)"
                 >
                   <Twitter className="w-6 h-6" />
@@ -260,7 +260,7 @@ const Contact = () => {
                   href="https://www.linkedin.com/company/tradetrack-marketing" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-accent transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors"
                   aria-label="Visit our LinkedIn"
                 >
                   <Linkedin className="w-6 h-6" />
@@ -269,7 +269,7 @@ const Contact = () => {
                   href="https://www.instagram.com/tradetrackmarketing" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-accent transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors"
                   aria-label="Visit our Instagram"
                 >
                   <Instagram className="w-6 h-6" />

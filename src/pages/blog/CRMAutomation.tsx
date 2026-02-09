@@ -67,7 +67,7 @@ const CRMAutomation = () => {
                 Automate customer check-ins, load updates, and satisfaction surveys. Identify at-risk customers and trigger retention campaigns automatically. This reduces churn and increases lifetime value.
               </p>
 
-              <div className="bg-accent/10 p-6 rounded-lg mt-8">
+              <div className="bg-primary/10 p-6 rounded-lg mt-8">
                 <h3 className="text-xl font-bold text-foreground mb-4">Key Takeaways</h3>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
                   <li>Automate lead nurturing with email and SMS sequences</li>

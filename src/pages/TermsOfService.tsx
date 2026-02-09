@@ -101,7 +101,7 @@ const TermsOfService = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-6">10. Privacy</h2>
                 <p className="text-muted-foreground">
                   Your use of our services is also governed by our{" "}
-                  <a href="/privacy-policy" className="text-[#63cc53] hover:underline">
+                  <a href="/privacy-policy" className="text-primary hover:underline">
                     Privacy Policy
                   </a>
                   .

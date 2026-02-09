@@ -120,7 +120,7 @@ const WebsitesFunnels = () => {
                     Brokers who updated outdated sites with FMCSA compliance badges, testimonials, and clear CTAs saw a marked increase in conversions and higher shipper trust.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Source: <a href="https://www.greenworldwide.com/freight-talk-blog/" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors">Green Worldwide</a>
+                    Source: <a href="https://www.greenworldwide.com/freight-talk-blog/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">Green Worldwide</a>
                   </p>
                 </div>
               </section>
@@ -158,7 +158,7 @@ const WebsitesFunnels = () => {
                 <Button 
                   size="lg"
                   onClick={() => setIsCalendlyModalOpen(true)}
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                  className="bg-accent hover:bg-accent/85 text-accent-foreground"
                 >
                   Book a Freight Marketing Strategy Session
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -170,13 +170,13 @@ const WebsitesFunnels = () => {
                 <div className="flex flex-wrap gap-4">
                   <a 
                     href="/services/brand-positioning" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     Brand Positioning →
                   </a>
                   <a 
                     href="/services/crm-automation" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     CRM Automation →
                   </a>

@@ -92,7 +92,7 @@ const CaseStudies = () => {
           <div className="max-w-4xl mx-auto">
             {/* Hero Section */}
             <div className="text-center mb-16">
-              <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-accent/10 text-accent mb-4">
+              <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary mb-4">
                 Results & Proof
               </div>
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
@@ -127,14 +127,14 @@ const CaseStudies = () => {
                     <div className="space-y-2 mb-4">
                       {caseStudy.metrics.map((metric, index) => (
                         <div key={index} className="flex items-center gap-2">
-                          <div className="w-1.5 h-1.5 rounded-full bg-accent"></div>
+                          <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
                           <span className="text-xs text-muted-foreground">{metric}</span>
                         </div>
                       ))}
                     </div>
                     <a 
                       href={caseStudy.link}
-                      className="inline-flex items-center text-sm font-medium text-accent hover:text-accent/80 transition-colors"
+                      className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
                     >
                       View details
                       <ArrowRight className="ml-1 w-3 h-3" />
@@ -162,7 +162,7 @@ const CaseStudies = () => {
                 </a>
                 <a 
                   href="/services"
-                  className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-primary hover:text-accent transition-colors"
+                  className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
                 >
                   See Services
                 </a>

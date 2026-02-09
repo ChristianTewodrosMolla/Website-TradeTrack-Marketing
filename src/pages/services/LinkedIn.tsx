@@ -120,7 +120,7 @@ const LinkedIn = () => {
                     Freight brokers using LinkedIn newsletters and thought leadership content have successfully landed enterprise logistics clients. Even one new account can justify the ad spend due to contract value.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Source: <a href="https://www.logisticsmarketing.com/blog/empathy-key-marketing-logistics-service" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors">Logistics Marketing Advisors</a>
+                    Source: <a href="https://www.logisticsmarketing.com/blog/empathy-key-marketing-logistics-service" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">Logistics Marketing Advisors</a>
                   </p>
                 </div>
               </section>
@@ -158,7 +158,7 @@ const LinkedIn = () => {
                 <Button 
                   size="lg"
                   onClick={() => setIsCalendlyModalOpen(true)}
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                  className="bg-accent hover:bg-accent/85 text-accent-foreground"
                 >
                   Book a Freight Marketing Strategy Session
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -170,13 +170,13 @@ const LinkedIn = () => {
                 <div className="flex flex-wrap gap-4">
                   <a 
                     href="/services/brand-positioning" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     Brand Positioning →
                   </a>
                   <a 
                     href="/services/websites-funnels" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     Websites & Funnels →
                   </a>

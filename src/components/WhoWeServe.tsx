@@ -1,4 +1,5 @@
 import { Truck, Building2, Package } from "lucide-react";
+import { Reveal } from "@/components/Reveal";
 
 const audiences = [
   {
@@ -9,8 +10,8 @@ const audiences = [
     needs: [
       "High-intent shipper leads at $50-$100 CPL",
       "Automated quote pipelines and follow-ups",
-      "Professional branding that wins enterprise contracts"
-    ]
+      "Professional branding that wins enterprise contracts",
+    ],
   },
   {
     icon: Truck,
@@ -20,8 +21,8 @@ const audiences = [
     needs: [
       "Direct access to quality freight in your lanes",
       "Driver recruiting funnels at $20-$50 CPL",
-      "Systems to reduce empty miles and maximize revenue"
-    ]
+      "Systems to reduce empty miles and maximize revenue",
+    ],
   },
   {
     icon: Package,
@@ -31,56 +32,57 @@ const audiences = [
     needs: [
       "Targeted B2B campaigns on LinkedIn",
       "Compliance-focused branding and website",
-      "Automated systems for shipper retention"
-    ]
-  }
+      "Automated systems for shipper retention",
+    ],
+  },
 ];
 
 const WhoWeServe = () => {
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-            Who We Work With
-          </h2>
-          <p className="text-lg text-muted-foreground">
-            We exclusively serve freight brokers, small carriers, and regional 3PLs. No generic solutions—just marketing built for logistics.
-          </p>
-        </div>
-        
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+    <section className="section-spacing bg-background">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <Reveal>
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+              Who We Work With
+            </h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              We exclusively serve freight brokers, small carriers, and regional 3PLs. No generic solutions—just marketing built for logistics.
+            </p>
+          </div>
+        </Reveal>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {audiences.map((audience, index) => (
-            <div 
-              key={index}
-              className="bg-card rounded-lg p-8 border border-border hover:shadow-[var(--card-hover-shadow)] transition-all duration-300 h-full flex flex-col"
-            >
-              <div className="flex-grow">
-                <div className="bg-primary/10 p-4 rounded-lg w-fit mb-6">
-                  <audience.icon className="w-8 h-8 text-primary" />
+            <Reveal key={index} delay={index * 60}>
+              <div className="bg-card rounded-lg p-8 shadow-[var(--card-shadow)] hover:shadow-[var(--card-hover-shadow)] transition-shadow duration-300 h-full flex flex-col">
+                <div className="flex-grow">
+                  <div className="bg-primary/10 p-4 rounded-lg w-fit mb-6">
+                    <audience.icon className="w-8 h-8 text-primary" />
+                  </div>
+
+                  <h3 className="text-xl font-bold text-foreground mb-2">{audience.title}</h3>
+
+                  <div className="inline-block bg-primary/10 text-primary text-sm font-semibold px-3 py-1 rounded-md mb-4">
+                    {audience.revenue || audience.fleet || audience.specialty}
+                  </div>
+
+                  <p className="text-muted-foreground mb-6 leading-relaxed">{audience.description}</p>
                 </div>
-                
-                <h3 className="text-2xl font-bold text-foreground mb-2">{audience.title}</h3>
-                
-                <div className="inline-block bg-accent/10 text-accent text-sm font-semibold px-3 py-1 rounded-full mb-4">
-                  {audience.revenue || audience.fleet || audience.specialty}
+
+                <div className="mt-auto">
+                  <p className="text-sm font-semibold text-foreground mb-3">What You Get:</p>
+                  <div className="space-y-2">
+                    {audience.needs.map((need, i) => (
+                      <div key={i} className="flex items-start gap-2 min-h-[1.5rem]">
+                        <div className="bg-primary w-1.5 h-1.5 rounded-full mt-2 shrink-0" />
+                        <p className="text-sm text-muted-foreground leading-relaxed">{need}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                
-                <p className="text-muted-foreground mb-6">{audience.description}</p>
               </div>
-              
-              <div className="mt-auto">
-                <p className="text-sm font-semibold text-foreground mb-3">What You Get:</p>
-                <div className="space-y-2">
-                  {audience.needs.map((need, i) => (
-                    <div key={i} className="flex items-start gap-2 min-h-[1.5rem]">
-                      <div className="bg-accent w-1.5 h-1.5 rounded-full mt-2 shrink-0"></div>
-                      <p className="text-sm text-muted-foreground leading-relaxed">{need}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
+            </Reveal>
           ))}
         </div>
       </div>

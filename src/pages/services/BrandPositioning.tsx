@@ -120,7 +120,7 @@ const BrandPositioning = () => {
                     Carriers and small brokers who invested in branding and consistent online presence reported more direct shipper inquiries, reducing reliance on load boards and winning larger contracts.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Source: <a href="https://www.flockfreight.com/blog" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors">Flock Freight</a>
+                    Source: <a href="https://www.flockfreight.com/blog" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">Flock Freight</a>
                   </p>
                 </div>
               </section>
@@ -158,7 +158,7 @@ const BrandPositioning = () => {
                 <Button 
                   size="lg"
                   onClick={() => setIsCalendlyModalOpen(true)}
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                  className="bg-accent hover:bg-accent/85 text-accent-foreground"
                 >
                   Book a Freight Marketing Strategy Session
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -170,13 +170,13 @@ const BrandPositioning = () => {
                 <div className="flex flex-wrap gap-4">
                   <a 
                     href="/services/websites-funnels" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     Websites & Funnels →
                   </a>
                   <a 
                     href="/services/linkedin" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     LinkedIn Campaigns →
                   </a>

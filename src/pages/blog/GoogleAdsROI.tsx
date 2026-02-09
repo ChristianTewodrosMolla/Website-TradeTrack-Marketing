@@ -67,7 +67,7 @@ const GoogleAdsROI = () => {
                 Track metrics like lead-to-customer conversion rate, average customer lifetime value, and time-to-first-load. These KPIs provide a more complete picture of campaign effectiveness than CPL alone.
               </p>
 
-              <div className="bg-accent/10 p-6 rounded-lg mt-8">
+              <div className="bg-primary/10 p-6 rounded-lg mt-8">
                 <h3 className="text-xl font-bold text-foreground mb-4">Key Takeaways</h3>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
                   <li>Focus on high-intent, location-based keywords</li>

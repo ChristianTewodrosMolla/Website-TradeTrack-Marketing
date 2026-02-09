@@ -158,7 +158,7 @@ const SocialAds = () => {
                     Recruiting campaigns on Facebook and Instagram typically achieve $20–$50 CPL, with optimized funnels bringing this down to $15–$30 per driver applicant.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Source: <a href="https://www.oyova.com/blog/digital-marketing-for-logistics-companies/" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors">Oyova</a>
+                    Source: <a href="https://www.oyova.com/blog/digital-marketing-for-logistics-companies/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">Oyova</a>
                   </p>
                 </div>
               </section>
@@ -196,7 +196,7 @@ const SocialAds = () => {
                 <Button 
                   size="lg"
                   onClick={() => setIsCalendlyModalOpen(true)}
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                  className="bg-accent hover:bg-accent/85 text-accent-foreground"
                 >
                   Book a Freight Marketing Strategy Session
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -208,13 +208,13 @@ const SocialAds = () => {
                 <div className="flex flex-wrap gap-4">
                   <a 
                     href="/services/crm-automation" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     CRM Automation →
                   </a>
                   <a 
                     href="/services/brand-positioning" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     Brand Positioning →
                   </a>

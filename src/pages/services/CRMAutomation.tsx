@@ -120,7 +120,7 @@ const CRMAutomation = () => {
                     Automated CRM systems with instant SMS/email follow-ups have doubled conversion rates compared to manual outreach. In freight, automation prevents lost leads and accelerates shipper response.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Source: <a href="https://www.freightwaves.com/news" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors">FreightWaves</a>
+                    Source: <a href="https://www.freightwaves.com/news" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">FreightWaves</a>
                   </p>
                 </div>
               </section>
@@ -158,7 +158,7 @@ const CRMAutomation = () => {
                 <Button 
                   size="lg"
                   onClick={() => setIsCalendlyModalOpen(true)}
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                  className="bg-accent hover:bg-accent/85 text-accent-foreground"
                 >
                   Book a Freight Marketing Strategy Session
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -170,13 +170,13 @@ const CRMAutomation = () => {
                 <div className="flex flex-wrap gap-4">
                   <a 
                     href="/services/google-ads" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     Google Ads →
                   </a>
                   <a 
                     href="/services/websites-funnels" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     Websites & Funnels →
                   </a>

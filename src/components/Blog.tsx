@@ -42,7 +42,7 @@ const Blog = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <Badge
             variant="secondary"
-            className="mb-4 text-accent bg-[hsl(var(--accent)/0.12)] border-[hsl(var(--accent)/0.3)]"
+            className="mb-4 text-primary bg-primary/10 border-primary/20"
           >
             Industry Insights
           </Badge>
@@ -80,7 +80,7 @@ const Blog = () => {
                         {post.category}
                       </Badge>
                     </div>
-                    <CardTitle className="text-xl mb-2 group-hover:text-accent transition-colors">
+                    <CardTitle className="text-xl mb-2 group-hover:text-primary transition-colors">
                       {post.title}
                     </CardTitle>
                   </div>
@@ -100,7 +100,7 @@ const Blog = () => {
                         <span>{post.readTime}</span>
                       </div>
                     </div>
-                    <div className="flex items-center gap-1 text-accent group-hover:gap-2 transition-all">
+                    <div className="flex items-center gap-1 text-primary group-hover:gap-2 transition-all">
                       <span>Read more</span>
                       <ArrowRight className="w-3 h-3" />
                     </div>

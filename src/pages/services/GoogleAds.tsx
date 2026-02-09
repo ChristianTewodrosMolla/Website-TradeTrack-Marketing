@@ -158,7 +158,7 @@ const GoogleAds = () => {
                     A container drayage broker generated ~60 B2B leads/month at $26 CPL on a $1,500 budget. Another regional broker improved leads by +182% and cut CPL by 39% in 3 months.
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Source: <a href="https://www.denim.com/blog/8-ways-to-market-your-freight-brokerage" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 transition-colors">Denim</a>
+                    Source: <a href="https://www.denim.com/blog/8-ways-to-market-your-freight-brokerage" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">Denim</a>
                   </p>
                 </div>
               </section>
@@ -196,7 +196,7 @@ const GoogleAds = () => {
                 <Button 
                   size="lg"
                   onClick={() => setIsCalendlyModalOpen(true)}
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                  className="bg-accent hover:bg-accent/85 text-accent-foreground"
                 >
                   Book a Freight Marketing Strategy Session
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -208,13 +208,13 @@ const GoogleAds = () => {
                 <div className="flex flex-wrap gap-4">
                   <a 
                     href="/services/websites-funnels" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     Websites & Funnels →
                   </a>
                   <a 
                     href="/services/crm-automation" 
-                    className="text-accent hover:text-accent/80 transition-colors font-medium"
+                    className="text-primary hover:text-primary/80 transition-colors font-medium"
                   >
                     CRM Automation →
                   </a>

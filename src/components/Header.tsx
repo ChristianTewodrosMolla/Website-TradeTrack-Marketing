@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Twitter, Linkedin, Instagram, Facebook, Menu, ChevronDown, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-white.svg";
 
 const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -55,19 +55,19 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background border-b border-border backdrop-blur-sm bg-background/95">
+    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur-sm shadow-[0_1px_0_0_hsl(var(--border)_/_0.4)]">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <a href="/" aria-label="Home">
-              <img src={logo} alt="TradeTrack Logistics logo — stylized T icon in dark blue and green with TradeTrack and LOGISTICS wordmark" className="h-12 md:h-14" />
+            <a href="/" aria-label="Home" className="inline-flex items-center rounded-lg bg-anchor px-3 py-2">
+              <img src={logo} alt="TradeTrack Logistics logo — white wordmark with TradeTrack and LOGISTICS" className="h-10 md:h-12 w-auto" />
             </a>
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-primary hover:text-accent transition-colors font-medium"
+              className="text-anchor hover:text-primary transition-colors font-medium"
             >
               About
             </button>
@@ -79,7 +79,7 @@ const Header = () => {
               onMouseLeave={handleServicesMouseLeave}
             >
               <button 
-                className="text-primary hover:text-accent transition-colors font-medium flex items-center gap-1"
+                className="text-anchor hover:text-primary transition-colors font-medium flex items-center gap-1"
                 aria-expanded={isServicesOpen}
                 aria-haspopup="menu"
                 onKeyDown={handleKeyDown}
@@ -98,7 +98,7 @@ const Header = () => {
                       key={item.href}
                       href={item.href}
                       role="menuitem"
-                      className="block px-4 py-3 text-sm text-primary hover:text-accent hover:bg-accent/10 transition-colors"
+                      className="block px-4 py-3 text-sm text-anchor hover:text-primary hover:bg-primary/10 transition-colors"
                     >
                       {item.name}
                     </a>
@@ -109,13 +109,13 @@ const Header = () => {
             
             <a 
               href="/blog"
-              className="text-primary hover:text-accent transition-colors font-medium"
+              className="text-anchor hover:text-primary transition-colors font-medium"
             >
               Blog
             </a>
             <a 
               href="/case-studies"
-              className="text-primary hover:text-accent transition-colors font-medium"
+              className="text-anchor hover:text-primary transition-colors font-medium"
             >
               Case Studies
             </a>
@@ -124,7 +124,7 @@ const Header = () => {
                 href="https://twitter.com/TradeTrackHQ" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors"
+                className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Follow us on X (Twitter)"
               >
                 <Twitter className="w-4 h-4" />
@@ -133,7 +133,7 @@ const Header = () => {
                 href="https://www.linkedin.com/company/tradetrack-marketing" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors"
+                className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Connect with us on LinkedIn"
               >
                 <Linkedin className="w-4 h-4" />
@@ -142,19 +142,19 @@ const Header = () => {
                 href="https://www.instagram.com/tradetrackmarketing" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-colors"
+                className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Follow us on Instagram"
               >
                 <Instagram className="w-4 h-4" />
               </a>
             </div>
-            <Button 
-              variant="default" 
+            <Button
+              variant="default"
               size="sm"
-              onClick={() => scrollToSection('contact')}
-              className="bg-accent hover:bg-accent/90 text-accent-foreground"
+              onClick={() => scrollToSection("schedule")}
+              className="bg-accent hover:bg-accent/85 text-accent-foreground"
             >
-              Contact
+              Get Strategy Session
             </Button>
           </nav>
 
@@ -177,7 +177,7 @@ const Header = () => {
                   scrollToSection('about');
                   setIsMobileMenuOpen(false);
                 }}
-                className="block w-full text-left text-primary hover:text-accent transition-colors font-medium"
+                className="block w-full text-left text-anchor hover:text-primary transition-colors font-medium"
               >
                 About
               </button>
@@ -185,7 +185,7 @@ const Header = () => {
               <div>
                 <button 
                   onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)}
-                  className="flex items-center justify-between w-full text-left text-primary hover:text-accent transition-colors font-medium mb-2"
+                  className="flex items-center justify-between w-full text-left text-anchor hover:text-primary transition-colors font-medium mb-2"
                   aria-expanded={isMobileServicesOpen}
                 >
                   Services
@@ -198,7 +198,7 @@ const Header = () => {
                         key={item.href}
                         href={item.href}
                         onClick={() => setIsMobileMenuOpen(false)}
-                        className="block text-sm text-muted-foreground hover:text-accent transition-colors"
+                        className="block text-sm text-muted-foreground hover:text-primary transition-colors"
                       >
                         {item.name}
                       </a>
@@ -210,14 +210,14 @@ const Header = () => {
               <a 
                 href="/blog"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block text-primary hover:text-accent transition-colors font-medium"
+                className="block text-anchor hover:text-primary transition-colors font-medium"
               >
                 Blog
               </a>
               <a 
                 href="/case-studies"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block text-primary hover:text-accent transition-colors font-medium"
+                className="block text-anchor hover:text-primary transition-colors font-medium"
               >
                 Case Studies
               </a>
@@ -227,7 +227,7 @@ const Header = () => {
                   href="https://twitter.com/TradeTrackHQ" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-accent transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors"
                   aria-label="Follow us on X (Twitter)"
                 >
                   <Twitter className="w-4 h-4" />
@@ -236,7 +236,7 @@ const Header = () => {
                   href="https://www.linkedin.com/company/tradetrack-marketing" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-accent transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors"
                   aria-label="Connect with us on LinkedIn"
                 >
                   <Linkedin className="w-4 h-4" />
@@ -245,23 +245,23 @@ const Header = () => {
                   href="https://www.instagram.com/tradetrackmarketing" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-accent transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors"
                   aria-label="Follow us on Instagram"
                 >
                   <Instagram className="w-4 h-4" />
                 </a>
               </div>
               
-              <Button 
-                variant="default" 
+              <Button
+                variant="default"
                 size="sm"
                 onClick={() => {
-                  scrollToSection('contact');
+                  scrollToSection("schedule");
                   setIsMobileMenuOpen(false);
                 }}
-                className="w-full bg-accent hover:bg-accent/90 text-accent-foreground"
+                className="w-full bg-accent hover:bg-accent/85 text-accent-foreground"
               >
-                Contact
+                Get Strategy Session
               </Button>
             </nav>
           </div>
